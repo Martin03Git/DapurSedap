@@ -1,0 +1,234 @@
+
+    * {
+      padding: 0px;
+      margin: 0px;
+      /* border: 1px solid black; */
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: rgb(155, 153, 148);
+    }
+
+    .continer {
+      background-color: #333;
+      width: 1300px;
+      margin: 0px auto;
+      border:  1px solid transparent;
+      border-radius: 10px;
+    }
+
+    .header {
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 20px 0px 20px 0px;
+    }
+
+    
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .search-box input[type="text"] {
+      padding: 5px;
+      width: 200px;
+    }
+
+    .left-conten, .middle-conten, .right-conten {
+      background-color: white;
+      padding: 5px;
+      box-sizing: border-box;
+    }
+
+
+
+
+    /* left conten  */
+
+    .left-conten {
+      float: left;
+      width: 23%;
+      height: 600px;
+      padding: 10px;
+      overflow: auto;
+      background-color: #f1f1f1;
+    }
+
+    .menu {
+      font-size: small;
+      text-align: justify;
+      margin: 5px;
+    }
+
+    .menu img {
+      width: 100px;
+      height: 70px;
+      float: left;
+      margin: 5px;
+      border-radius: 7px;
+    }
+
+    .menu p {
+      overflow: auto;
+      height: 70px;
+      text-align: justify;
+    }
+
+
+
+    /* middle conten */
+
+    .middle-conten {
+      float: left;
+      width: 54%;
+      height: 600px;
+      padding: 10px;
+    }
+
+    .gambar-menu {
+      float: left;
+      width: 300px;
+      height: 200px;
+      margin: 5px 10px 5px 5px;
+      border-radius: 10px;
+    }
+
+    .detail-manu {
+      width: 400px;
+      padding: 10px;
+    }
+
+    .ratting {
+      float: left;
+      width: 100%;
+    }
+
+    .detail-menu img {
+      width: 15px;
+      height: 15px;
+      margin: 3px;
+    }
+
+    .detail-menu p {
+      margin: 5px;
+    }
+
+
+
+
+
+
+    table {
+      margin: 10px auto;
+      width: 600px;
+      height: 350px;
+    }
+
+    td {
+      width: 150px;
+    }
+
+    table tr td input[type=text] {
+      width: 80%;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid black;
+      padding: 5px;
+    }
+
+    table tr td input[type=text]:focus {
+      background-color: lightblue;
+    }
+
+    table tr td input[type=submit] {
+      background-color: lightblue;
+      width: 50px;
+      height: 25px;
+      border: none;
+    }
+
+    table tr td input[type=number] {
+      width: 40%;
+    }
+
+
+
+
+
+
+
+
+    /* right conten */
+
+    .right-conten {
+      float: left;
+      width: 23%;
+      height: 600px;
+      padding: 10px;
+    }
+
+    .testi {
+      width: 200px;
+      margin: 10px auto;
+    }
+
+    .testi p {
+      text-align: justify;
+    }
+
+    .testi i {float: right;
+    }
+
+    .testi i b {
+      text-align: right;
+    }
+
+
+
+
+
+    /* footer */
+
+    .footer {
+      float: left;
+      color: white;
+      width: 1300px;
+      text-align: center;
+    }
+
+    .footer p {
+      margin: 10px auto;
+    }
+
+    
+
+
+
+
+
+
+    .clear {
+      clear: both;
+    }

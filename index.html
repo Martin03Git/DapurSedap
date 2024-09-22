@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<head>
+  <title>Dapur Sedap</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+  <div class="continer">
+    <div class="header">
+      <h1>Dapur Sedap</h1>
+      <nav>
+        <ul>
+          <li><a href="#" style="padding-left: 60px;">Beranda</a></li>
+          <li><a href="#">Pilihan Menu Makanan</a></li>
+          <li><a href="#">Pilihan Minuman</a></li>
+          <li><a href="#">Tentang Restoran</a></li>
+          <li class="search-box">
+            <form action="proses.php" method="post">
+              <input type="text" placeholder="Cari menu...">
+              <input type="submit" value="cari">
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="left-conten">
+      <h3>Rekomendasi Menu :</h3>
+      <hr>
+
+      <div class="menu">
+        <img src="images/ramen.jpg" alt="Ramen">
+        <h4>Ramen</h4>
+        <p>Mie dengan kuah gurih yang disajikan dengan topping seperti irisan daging babi, nori, dan telur.</p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="menu">
+        <img src="images/susi.jpg" alt="Sushi">
+        <h4>Sushi</h4>
+        <p>Potongan ikan segar atau bahan lainnya yang ditempatkan di atas nasi yang dibentuk dengan tangan dan disajikan dengan wasabi dan kecap.</p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="menu">
+        <img src="images/tempura.jpg" alt="Tempura">
+        <h4>Tempura</h4>
+        <p>Makanan laut, sayuran, atau daging yang digoreng dengan tepung khusus hingga renyah.</p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="menu">
+        <img src="images/okonomiyaki.jpg" alt="Okonomiyaki">
+        <h4>Okonomiyaki</h4>
+        <p>Pancake Jepang yang terbuat dari campuran adonan terigu, kol, dan berbagai bahan tambahan seperti daging, seafood, dan saus.</p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="menu">
+        <img src="images/takoyaki.jpg" alt="Takoyaki">
+        <h4>Takoyaki</h4>
+        <p>Bola-bola adonan tepung dengan isian potongan gurita yang digoreng dengan cetakan khusus, disajikan dengan saus dan bumbu rempah khas.</p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="menu">
+        <img src="images/Matcha Latte.jpeg" alt="Matcha Latte">
+        <h4>Matcha Latte</h4>
+        <p>Minuman dengan bubuk matcha (teh hijau) yang dicampur dengan susu dan gula.</p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="menu">
+        <img src="images/Calpis.jpg" alt="Calpis">
+        <h4>Calpis</h4>
+        <p>Minuman susu asam manis yang terbuat dari fermentasi susu sapi dengan tambahan gula dan air.</p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="menu">
+        <img src="images/Sakura-cha.png" alt="Sakura-cha">
+        <h4>Sakura-cha</h4>
+        <p>Teh bunga sakura yang memiliki aroma lembut dan bunga sakura yang dikeringkan.</p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="menu">
+        <img src="images/Melon-Soda.jpg" alt="Melon Soda">
+        <h4>Melon Soda</h4>
+        <p>Minuman bersoda dengan rasa melon yang segar dan manis.</p>
+
+          <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="middle-conten">
+      <img src="images/ramen.jpg" alt="Ramen" class="gambar-menu">
+      <div class="detail-menu">
+        <h2 class="judul">Ramen</h2>
+        <p><img src="images/star.png" alt="Bintang" srcset="">4,7/5</p>
+        <p><img src="images/love.png" alt="Bintang" srcset="">79</p>
+        <p><img src="images/kranjang.png" alt="Bintang" srcset="">226</p>
+        <p>Mie dengan kuah gurih yang disajikan dengan topping seperti irisan daging babi, nori, dan telur.</p>
+        <div class="clear"></div>
+      </div>
+
+      <hr width="100%">
+
+      <div class="purcase">
+          <table>
+            <form action="proses.php">
+            <tr>
+              <td colspan="2">Nama :</td>
+              <td colspan="2" align="right"><input type="text" name="nama" id="nama_pem"></td>
+            </tr>
+            <tr>
+              <td colspan="2">No.HP :</td>
+              <td colspan="2" align="right"><input type="text" name="no_hp" id="no_hp"></td>
+            <tr>
+              <td colspan="4">&nbsp;</td>
+            </tr>
+            <tr>
+              <td>Alamat :</td>
+              <td colspan="3" align="right"><input type="text" name="alamat" id="alamat" style="width: 86%;"></td>
+            </tr>
+            <tr>
+              <td colspan="4">&nbsp;</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td align="center">Jumlah :</td>
+              <td align="center"><input style="text-align: center;" type="number" name="jumlah_pesanan" id="jumlah_pesanan" value="1"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td align="center">Bayar :</td>
+              <td align="center">Rp. 23.000</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td align="center"><input type="submit" value="Beli"></td>
+            </tr>
+          </form>
+          </table>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+
+    <div class="right-conten">
+      <h3>Testimoni : </h3>
+      <hr>
+      <div class="testi">
+        <p>"Mie Ramen di sini memang mantap! Terima kasih Dapur Sedap!"</p>
+        <i><b>~ Ahmad, Jakarta</b></i>
+        <div class="clear"></div>
+      </div>
+
+      <div class="testi">
+        <p>"Setiap kali saya berkunjung ke Surabaya, wajib mampir ke Restoran Dapur Sedap untuk menikmati mie Ramen mereka!"</p>
+        <i><b>~ Budi, Surabaya</b></i>
+        <div class="clear"></div>
+      </div>
+
+      <div class="testi">
+        <p>"Mie Ramen di Restoran ini enak banget! Selalu menjadi pilihan favorit saya."</p>
+        <i><b>~ Citra, Bandung</b></i>
+        <div class="clear"></div>
+      </div>
+
+      <div class="testi">
+        <p>"Rasa mie Ramen di sini bener-bener bikin nagih! Jangan lupa cobain ya!"</p>
+        <i><b>~ Dian, Yogyakarta</b></i>
+        <div class="clear"></div>
+      </div>
+
+      <div class="testi">
+        <p>"Saya sudah mencoba mie Ramen di beberapa tempat, tapi yang paling enak tetap di Restoran ini."</p>
+        <i><b>~ Gina, Semarang</b></i>
+        <div class="clear"></div>
+      </div>
+
+    </div>
+
+    <div class="footer"><p>Copyright &copy; 2023 Dapur Sedap </p></div>
+
+    <div class="clear"></div>
+  </div>
+  
+</body>
+</html>
